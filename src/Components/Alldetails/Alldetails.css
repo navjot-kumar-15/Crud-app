@@ -1,0 +1,23 @@
+.table{
+    width: 80vw;
+    transform: translateX(9rem);
+    margin-top: 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.thead{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;  
+}
+.all-heading{
+    margin-bottom: -2.5rem;
+}
+
+td button{
+    /* margin-left: 1rem; */
+    border: none;
+}
+
+
+

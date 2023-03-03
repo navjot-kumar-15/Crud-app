@@ -1,0 +1,16 @@
+.footer{
+    position: absolute;
+    bottom: -4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline:none;
+    
+}
+.textColorFooter{
+    color: white;
+    transform: translateX(40rem);
+}
+

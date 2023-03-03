@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+@media (100px <= width <= 375px ) {
+  body{
+          width: 200vw;
+      }
+}
