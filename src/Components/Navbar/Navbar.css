@@ -1,6 +1,9 @@
-/* .navbar{
-    border: 1px solid red;
-    width:100vw;
-    } */
+.navbar {
+  width: 108vw;
+}
 
-
+@media (541px <= width <= 840px) {
+  .navbar {
+    width: 100%;
+  }
+}

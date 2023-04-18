@@ -1,25 +1,39 @@
-.main-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    width: 50vw;
-    padding: 1rem;
-    border-radius: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.main-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 45vw;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.input-form{
-    width: 35vw;
+.input-form {
+  width: 35vw;
 }
-.btn-add{
-    /* transform: translateX(-8.8rem);
+
+.btn-add {
+  /* transform: translateX(-8.8rem);
     width: 25vw; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 74%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83%;
+}
+
+@media (390px <= width <= 540px) {
+  .main-form {
+    margin-left: -5rem;
+    width: 80vw;
+  }
+  .main-form h2 {
+    font-size: 1.5rem;
+  }
+  .input-form {
+    width: 100%;
+  }
 }
